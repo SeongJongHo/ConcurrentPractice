@@ -1,4 +1,4 @@
-package com.example.test.product.domain.repository;
+package com.example.test.product.application.repository;
 
 import com.example.test.product.domain.model.Product;
 

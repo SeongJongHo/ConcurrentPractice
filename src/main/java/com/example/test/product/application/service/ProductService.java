@@ -1,7 +1,7 @@
 package com.example.test.product.application.service;
 
 import com.example.test.product.domain.model.Product;
-import com.example.test.product.domain.repository.ProductRepository;
+import com.example.test.product.application.repository.ProductRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
