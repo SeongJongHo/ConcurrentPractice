@@ -15,16 +15,26 @@ public class Product {
     @Version
     private Long quantity;
 
+    public Product() {}
+
     public Product(Long id, Long quantity) {
         this.id = id;
         this.quantity = quantity;
     }
 
-    public long getQuantity() {
+    public Product(Long quantity) {
+        this.quantity = quantity;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getQuantity() {
         return this.quantity;
     }
 
-    public long getAtomicQuantity() {
+    public Long getAtomicQuantity() {
         return this.atomicQuantity.longValue();
     }
 
